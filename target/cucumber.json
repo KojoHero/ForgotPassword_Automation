@@ -1,0 +1,772 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6543711000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5335098200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify if user is able to receive reset password code with valid and invalid email addresses",
+        "description": "",
+        "id": "marketplace;verify-if-user-is-able-to-receive-reset-password-code-with-valid-and-invalid-email-addresses;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 570032700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 576328200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12736441000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User browses to the login page",
+            "match": {
+              "location": "forgot_password.user_browses_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 555159500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on forgot password",
+            "match": {
+              "location": "forgot_password.user_clicks_on_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5110963100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters his \"testing.amalitech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech.com",
+                  "offset": 17
+                }
+              ],
+              "location": "forgot_password.user_enters_his(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46445000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on continue",
+            "match": {
+              "location": "forgot_password.user_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5012233900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be taken to the \"http://20.52.44.20/auth/forgottenpassword\" page indicating success or told to repeat the process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://20.52.44.20/auth/forgottenpassword",
+                  "offset": 29
+                }
+              ],
+              "location": "forgot_password.user_should_be_taken_to_the_page_indicating_success_or_told_to_repeat_the_process(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TESTSET_COMMUNITY-367"
+          },
+          {
+            "line": 1,
+            "name": "@COMMUNITY-370"
+          },
+          {
+            "line": 17,
+            "name": "@REQ_COMMUNITY-10"
+          },
+          {
+            "line": 2,
+            "name": "@REQ_COMMUNITY-2"
+          },
+          {
+            "line": 17,
+            "name": "@TEST_COMMUNITY-406"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5214486800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5252595900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify if user is able to receive reset password code with valid and invalid email addresses",
+        "description": "",
+        "id": "marketplace;verify-if-user-is-able-to-receive-reset-password-code-with-valid-and-invalid-email-addresses;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 568758500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 577731100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1797833200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User browses to the login page",
+            "match": {
+              "location": "forgot_password.user_browses_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 560433000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on forgot password",
+            "match": {
+              "location": "forgot_password.user_clicks_on_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5111502800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters his \"testing.amalitech@gmailcom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmailcom",
+                  "offset": 17
+                }
+              ],
+              "location": "forgot_password.user_enters_his(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50423500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on continue",
+            "match": {
+              "location": "forgot_password.user_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5011900500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be taken to the \"http://20.52.44.20/auth/forgottenpassword\" page indicating success or told to repeat the process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://20.52.44.20/auth/forgottenpassword",
+                  "offset": 29
+                }
+              ],
+              "location": "forgot_password.user_should_be_taken_to_the_page_indicating_success_or_told_to_repeat_the_process(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TESTSET_COMMUNITY-367"
+          },
+          {
+            "line": 1,
+            "name": "@COMMUNITY-370"
+          },
+          {
+            "line": 17,
+            "name": "@REQ_COMMUNITY-10"
+          },
+          {
+            "line": 2,
+            "name": "@REQ_COMMUNITY-2"
+          },
+          {
+            "line": 17,
+            "name": "@TEST_COMMUNITY-406"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5330339200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5614844900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify if user is able to receive reset password code with valid and invalid email addresses",
+        "description": "",
+        "id": "marketplace;verify-if-user-is-able-to-receive-reset-password-code-with-valid-and-invalid-email-addresses;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 583851800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 594021400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1886657300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User browses to the login page",
+            "match": {
+              "location": "forgot_password.user_browses_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693056200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on forgot password",
+            "match": {
+              "location": "forgot_password.user_clicks_on_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5102797200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters his \"dan@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dan@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "forgot_password.user_enters_his(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45635700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on continue",
+            "match": {
+              "location": "forgot_password.user_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5012627400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be taken to the \"http://20.52.44.20/auth/confirmaccount\" page indicating success or told to repeat the process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://20.52.44.20/auth/confirmaccount",
+                  "offset": 29
+                }
+              ],
+              "location": "forgot_password.user_should_be_taken_to_the_page_indicating_success_or_told_to_repeat_the_process(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TESTSET_COMMUNITY-367"
+          },
+          {
+            "line": 1,
+            "name": "@COMMUNITY-370"
+          },
+          {
+            "line": 17,
+            "name": "@REQ_COMMUNITY-10"
+          },
+          {
+            "line": 2,
+            "name": "@REQ_COMMUNITY-2"
+          },
+          {
+            "line": 17,
+            "name": "@TEST_COMMUNITY-406"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5470582200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5233419600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify if user is able to receive reset password code with valid and invalid email addresses",
+        "description": "",
+        "id": "marketplace;verify-if-user-is-able-to-receive-reset-password-code-with-valid-and-invalid-email-addresses;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 607745000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 600865100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1902681200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User browses to the login page",
+            "match": {
+              "location": "forgot_password.user_browses_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691501100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on forgot password",
+            "match": {
+              "location": "forgot_password.user_clicks_on_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5106235900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters his \"testing.amalitechgmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitechgmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "forgot_password.user_enters_his(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48402200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on continue",
+            "match": {
+              "location": "forgot_password.user_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5013001600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be taken to the \"http://20.52.44.20/auth/forgottenpassword\" page indicating success or told to repeat the process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://20.52.44.20/auth/forgottenpassword",
+                  "offset": 29
+                }
+              ],
+              "location": "forgot_password.user_should_be_taken_to_the_page_indicating_success_or_told_to_repeat_the_process(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TESTSET_COMMUNITY-367"
+          },
+          {
+            "line": 1,
+            "name": "@COMMUNITY-370"
+          },
+          {
+            "line": 17,
+            "name": "@REQ_COMMUNITY-10"
+          },
+          {
+            "line": 2,
+            "name": "@REQ_COMMUNITY-2"
+          },
+          {
+            "line": 17,
+            "name": "@TEST_COMMUNITY-406"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5220980900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5202553700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify if user is able to receive reset password code with valid and invalid email addresses",
+        "description": "",
+        "id": "marketplace;verify-if-user-is-able-to-receive-reset-password-code-with-valid-and-invalid-email-addresses;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 571804800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reset_password.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 615375000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "forgot_password.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1841532400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User browses to the login page",
+            "match": {
+              "location": "forgot_password.user_browses_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 503860400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on forgot password",
+            "match": {
+              "location": "forgot_password.user_clicks_on_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5136720900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters his \"testing.amalitech.gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech.gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "forgot_password.user_enters_his(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44958700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on continue",
+            "match": {
+              "location": "forgot_password.user_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5011442100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be taken to the \"http://20.52.44.20/auth/forgottenpassword\" page indicating success or told to repeat the process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://20.52.44.20/auth/forgottenpassword",
+                  "offset": 29
+                }
+              ],
+              "location": "forgot_password.user_should_be_taken_to_the_page_indicating_success_or_told_to_repeat_the_process(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TESTSET_COMMUNITY-367"
+          },
+          {
+            "line": 1,
+            "name": "@COMMUNITY-370"
+          },
+          {
+            "line": 17,
+            "name": "@REQ_COMMUNITY-10"
+          },
+          {
+            "line": 2,
+            "name": "@REQ_COMMUNITY-2"
+          },
+          {
+            "line": 17,
+            "name": "@TEST_COMMUNITY-406"
+          }
+        ]
+      }
+    ],
+    "name": "Marketplace",
+    "description": "",
+    "id": "marketplace",
+    "keyword": "Feature",
+    "uri": "F:/Eclipse_workspace/Forgot_password/src/test/java/features/1_COMMUNITY-2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@COMMUNITY-370"
+      },
+      {
+        "line": 2,
+        "name": "@REQ_COMMUNITY-2"
+      }
+    ]
+  }
+]
